@@ -1,15 +1,15 @@
 {
   "mcpServers": {
-    "ppt": {
+    "Office-PowerPoint-MCP-Server": {
+      "disabled": false,
+      "timeout": 60,
+      "type": "stdio",
       "command": "uvx",
       "args": [
         "--from",
         "office-powerpoint-mcp-server",
         "ppt_mcp_server"
-      ],
-      "env": {
-        "PPT_TEMPLATE_PATH": "C:\\Users\\bulle\\OneDrive\\Documents\\Cline\\temp-ppt-server\\templates"
-      }
+      ]
     }
   }
 }

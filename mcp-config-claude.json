@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "Office-PowerPoint-MCP-Server": {
+      "disabled": false,
+      "timeout": 60,
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "-m",
+        "ppt_mcp_server"
+      ]
+    }
+  }
+}
